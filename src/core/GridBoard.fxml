@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="750.0" style="-fx-background-color: #cf9730;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="core.GridBoardController">
+   <children>
+      <AnchorPane layoutX="36.0" layoutY="36.0" prefHeight="420.0" prefWidth="420.0">
+         <children>
+            <TilePane fx:id="cellsPane" alignment="CENTER" hgap="4.0" layoutY="14.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="420.0" style="-fx-background-color: #315b63;" vgap="4.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="validate_button" layoutX="500.0" layoutY="261.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#validateAnswer" prefHeight="78.0" prefWidth="200.0" style="-fx-background-color: #315b63; -fx-font-weight: bold;" text="Validate" textFill="#cf9730">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="quit_button" layoutX="500.0" layoutY="361.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#quit" prefHeight="78.0" prefWidth="200.0" style="-fx-background-color: #315b63; -fx-font-weight: bold;" text="Quit" textFill="#cf9730">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button layoutX="500.0" layoutY="161.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#restart" prefHeight="78.0" prefWidth="200.0" style="-fx-background-color: #315b63; -fx-font-weight: bold;" text="Try Again" textFill="#cf9730">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button layoutX="500.0" layoutY="61.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#newGame" prefHeight="78.0" prefWidth="200.0" style="-fx-background-color: #315b63; -fx-font-weight: bold;" text="New Game" textFill="#cf9730">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
