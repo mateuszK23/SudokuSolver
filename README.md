@@ -1,4 +1,4 @@
-# SudokuSolverGUI
+# SudokuSolver
 This is a sudoku solver written in Java with JavaFX graphical user interface.
 
 Running the project can be done either by getting the .zip file or .jar file.
